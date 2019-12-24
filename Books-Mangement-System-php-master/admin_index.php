@@ -20,6 +20,7 @@ include ('mysqli_connect.php');
             background: url("300046-106.jpg") no-repeat;
             background-size:cover;
             color: antiquewhite;
+        /*    antiquewhite*/
         }
 
     </style>
@@ -58,28 +59,29 @@ include ('mysqli_connect.php');
 </nav>
 
 
-<h3 style="text-align: center"><?php echo $userid;  ?>号管理员，您好</h3><br/><br/><br/>
-<h4 style="text-align: center"><?php
+<h3 style="text-align: center; margin-top: 150px"><?php echo $userid;  ?>号管理员，您好</h3><br/><br/><br/>
+<h3 style="text-align: center"><?php
     $sql="select count(*) a from book_info;";
 
     $res=mysqli_query($dbc,$sql);
     $result=mysqli_fetch_array($res);
-    echo "本图书馆当前共有图书{$result['a']}本。";
+
+    echo "图书馆当前共有图书".$result[a]."本。";
     ?>
-</h4>
+</h3>
 
-<h4 style="text-align: center">
-    <?php
-    $sqla="select count(*) b from reader_card;";
+<!--<h4 style="text-align: center">-->
+<!--    --><?php
+//    $sqla="select count(*) b from reader_card;";
+//
+//    $resa=mysqli_query($dbc,$sqla);
+//    $resulta=mysqli_fetch_array($resa);
+//    echo "共有读者".$resulta[b]."人。";
+//
+//    ?>
+<!--</h4>-->
 
-    $resa=mysqli_query($dbc,$sqla);
-    $resulta=mysqli_fetch_array($resa);
-    echo "共有读者{$resulta['b']}个。";
-
-    ?>
-</h4>
-
-    <div id="bot" style="text-align: center;font-size:40px;position:absolute;left:32%;bottom:30px "><i style="text-align: center">读   书  ，是   一   种   心   灵   的   旅   行</i></div>
+    <div id="bot" style="text-align: center;font-size:40px;position:absolute;left:30%;top:80px "><i style="text-align: center">哈 尔 滨 理 工 大 学 图 书 管 理 系 统 </i></div>
 
 
 </body>
