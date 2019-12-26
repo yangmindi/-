@@ -15,7 +15,7 @@ $resultb=mysqli_fetch_array($resb);
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title>图书馆 || 个人信息修改</title>
+    <title>个人信息修改</title>
 </head>
 <body>
 <h1 style="text-align: center"><strong>个人信息修改</strong></h1>

@@ -12,7 +12,7 @@ $result=mysqli_fetch_array($res);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>我的图书馆 || 图书查询</title>
+    <title>图书查询</title>
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>

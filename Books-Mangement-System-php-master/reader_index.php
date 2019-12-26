@@ -76,14 +76,6 @@ date_default_timezone_set("PRC");
 
     ?>
 </h4>
-<div id="gonggao">
-    <a href="a.html" style="font-style: italic;color: white;text-decoration:replace-underline">馆内资讯：扬中华之美德 行传统毕业礼</a><br>
-    <a href="a.html" style="font-style: italic;color: white">通知公告：读者借阅规则</a><br>
-    <a href="a.html" style="font-style: italic;color: white">书单推荐：《朗读者》第一期、第二期最全书单：你读过几本？</a><br>
-    <a href="a.html" style="font-style: italic;color: white">书单推荐：5年内经得起时间考验的经典好书榜</a><br>
-    <a href="a.html" style="font-style: italic;color: white">书单推荐：第十一届文津图书奖获奖图书</a><br>
-
-</div>
 
 </body>
 </html>
