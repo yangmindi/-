@@ -56,9 +56,9 @@ $result=mysqli_fetch_array($res);
     ?>
 <div class="col-xs-5 col-md-offset-3" style="position: relative;top: 25%">
 <div class="panel panel-primary">
-    <div class="panel-heading">
-        <h3 class="panel-title">我的信息</h3>
-    </div>
+<!--    <div class="panel-heading">-->
+<!--        <h3 class="panel-title">我的信息</h3>-->
+<!--    </div>-->
     <div class="panel-body">
         <a href="#" class="list-group-item"><?php echo "<p>读者证号:{$resulta['reader_id']}</p><br/>"; ?></a>
         <a href="#" class="list-group-item"><?php  echo "<p>姓名:{$resulta['name']}</p><br/>";  ?></a>
@@ -66,7 +66,7 @@ $result=mysqli_fetch_array($res);
         <a href="#" class="list-group-item"><?php echo "<p>生日:{$resulta['birth']}</p><br/>";  ?></a>
         <a href="#" class="list-group-item"><?php     echo "<p>居住地:{$resulta['address']}</p><br/>";  ?></a>
         <a href="#" class="list-group-item"><?php    echo "<p>电话:{$resulta['telcode']}</p><br/>"; ?></a>
-        <?php echo "<a style='color: #AA0000;font-size: larger' href='reader_info_edit.php'><strong>修改</strong></a>"; ?>
+        <?php echo "<a style='color: blue;font-size: larger' href='reader_info_edit.php'><strong>修改</strong></a>"; ?>
     </div>
 </div>
 </div>
